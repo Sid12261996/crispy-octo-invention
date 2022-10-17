@@ -1,0 +1,40 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    margin-top: 15vh;
+    gap: 1rem;
+}
+
+.tags-container {
+    width: 50vw;
+    /* height: 80vw; */
+    display: flex;
+    gap: 1rem;
+    overflow: hidden;
+    /* flex-wrap: wrap; */
+}
+
+
+.overflowing-count{
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+
+.tags {
+    background-color: rgb(188, 182, 182);
+    border-radius: 1rem;
+    border: 1px solid rgb(60, 57, 57);
+    width: max-content;
+    padding: 0.7em;
+}
